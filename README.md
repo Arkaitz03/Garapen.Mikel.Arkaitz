@@ -1,1 +1,3 @@
-# Garapen.proba
+# Egileak
+
+Mikel Perez eta Arkaitz Maiora
