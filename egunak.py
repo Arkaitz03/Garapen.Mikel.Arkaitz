@@ -1,5 +1,5 @@
 def hilabete_izena():
-    zenb = input("Sartu hilabeteko zenbakia: ")
+    zenb = int(input("Sartu hilabeteko zenbakia: "))
 
     if zenb == 1:
         print("Urtarrila")
@@ -29,14 +29,14 @@ def hilabete_izena():
         print("ez da existitzen")
 
 def egun_kopurua():
-    zenb = input("Sartu asteko zenbaki bat:")
+    zenb = int(input("Sartu asteko zenbaki bat:"))
 
     if zenb == 1:
         print("Astelehena")
     elif zenb == 2:
         print("Asteartea")
     elif zenb == 3:
-        print("Astehazkena")
+        print("Asteazkena")
     elif zenb == 4:
         print("Osteguna")
     elif zenb == 5:
