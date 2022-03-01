@@ -15,7 +15,7 @@ irten = False
 aukera = 0
 
 while not irten:
-
+    print ("0. Irten")
     print("1. Laukizuzena")
     print("2. Erronboa")
     print("3. Triangelua eskumara")
@@ -60,7 +60,10 @@ while not irten:
                 print("*", end="")
             print(" ")
 
+    elif aukera == 0:
+        exit()
+
     else:
-        print("Sartu 1-3 tarteko zenbaki bat")
+        print("Sartu 0-3 tarteko zenbaki bat")
 
 print("Bukaera")
