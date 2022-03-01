@@ -16,4 +16,5 @@ def txikiena ():
     zenb = int(input("Sartu beste zenbaki bat: "))
     zerrenda.append(zenb)
 
-    print(min(zerrenda) + " txikiena da")
+    print(min(zerrenda), " da txikiena")
+
